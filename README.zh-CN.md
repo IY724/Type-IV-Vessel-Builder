@@ -2,7 +2,7 @@
 
 **简体中文** | [English](README.md)
 
-> **状态：代码与安装包暂时撤回。** 部分功能正在更新，后续会完全开放。如需交流或试用，请联系 **Z25150070@s.upc.edu.cn**。
+> **状态：代码与安装包暂时撤回。** 部分功能正在更新，后续会完全开放。想提前体验或交流，请联系 **Z25150070@s.upc.edu.cn**。
 
 > **开发说明**：本软件在开发过程中借助了 vibe coding（AI 辅助编程）。
 >
@@ -147,5 +147,5 @@ Type-IV Vessel Builder (Liner & Boss) V1.0 是运行在 Abaqus/CAE 2025 中的�
 
 ## 9 使用与联系
 
-- 非商业用途可直接使用；商用或合作请联系 **Z25150070@s.upc.edu.cn**。
+- 非商业用途可直接使用。功能正在升级，想提前体验的请联系 **Z25150070@s.upc.edu.cn**。
 - 问题反馈：欢迎提交 [GitHub Issue](https://github.com/IY724/Type-IV-Vessel-Builder/issues)，或发送邮件至 **Z25150070@s.upc.edu.cn**。

@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md) | **English**
 
-> **Status: code and installation package temporarily withdrawn.** Some features are being updated and will be fully released later. For collaboration or trial access, contact **Z25150070@s.upc.edu.cn**.
+> **Status: code and installation package temporarily withdrawn.** Some features are being updated and will be fully released later. For early access or collaboration, contact **Z25150070@s.upc.edu.cn**.
 
 > **Note on development**: This software was built with the assistance of vibe coding (AI-assisted programming).
 >
@@ -150,5 +150,5 @@ Outputs:
 
 ## 9 Usage and Contact
 
-- Non-commercial use is allowed. For commercial use or collaboration, contact **Z25150070@s.upc.edu.cn**.
+- Non-commercial use is allowed. Features are being upgraded; contact **Z25150070@s.upc.edu.cn** for early access.
 - Feedback: open a [GitHub Issue](https://github.com/IY724/Type-IV-Vessel-Builder/issues) or contact **Z25150070@s.upc.edu.cn**.
