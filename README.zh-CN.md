@@ -7,8 +7,6 @@
 > **开发说明**：本软件在开发过程中借助了 vibe coding（AI 辅助编程）。
 >
 > **问题反馈**：使用中遇到任何问题，欢迎在 [GitHub Issues](https://github.com/IY724/Type-IV-Vessel-Builder/issues) 中反馈，或发送邮件至 **Z25150070@s.upc.edu.cn**。
->
-> **禁止商用**：本软件仅供学习与科研交流使用，未经授权禁止用于任何商业用途；如需商用，请先联系作者获取授权。
 
 ## 1 插件介绍
 
@@ -140,8 +138,7 @@ Type-IV Vessel Builder (Liner & Boss) V1.0 是运行在 Abaqus/CAE 2025 中的�
 - **模型树中未显示装配实例**：未勾选布尔合并时仅生成独立 Part，需在 Assembly 模块手动创建实例；
 - **退出软件后模型丢失**：插件不自动写盘，请务必通过 File 菜单手动保存。
 
-## 9 许可与联系
+## 9 使用与联系
 
-- 本软件代码与文档版权归作者 IY（China University of Petroleum (East China)）所有；
-- **禁止商用**：仅供学习与科研交流使用，未经授权禁止用于任何商业用途；
+- 非商业用途可直接使用；商用或合作请联系 **Z25150070@s.upc.edu.cn**。
 - 问题反馈：欢迎提交 [GitHub Issue](https://github.com/IY724/Type-IV-Vessel-Builder/issues)，或发送邮件至 **Z25150070@s.upc.edu.cn**。

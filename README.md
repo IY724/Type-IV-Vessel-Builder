@@ -7,8 +7,6 @@
 > **Note on development**: This software was built with the assistance of vibe coding (AI-assisted programming).
 >
 > **Feedback**: If you run into any problem, feel free to open a [GitHub Issue](https://github.com/IY724/Type-IV-Vessel-Builder/issues) or contact **Z25150070@s.upc.edu.cn**.
->
-> **Non-commercial use only**: This software is provided for learning and research purposes. Commercial use is prohibited without prior authorization. Please contact the author for commercial licensing.
 
 ## 1 Introduction
 
@@ -143,8 +141,7 @@ Outputs:
 - **No assembly instance in the model tree**: without Boolean merge only standalone parts are created; create instances in the Assembly module;
 - **Model lost after closing**: the plugin does not auto-save; use the File menu to save the CAE database.
 
-## 9 License and Contact
+## 9 Usage and Contact
 
-- Copyright of the code and documentation belongs to IY (China University of Petroleum (East China));
-- **Non-commercial use only**: provided for learning and research; any commercial use is prohibited without authorization;
+- Non-commercial use is allowed. For commercial use or collaboration, contact **Z25150070@s.upc.edu.cn**.
 - Feedback: open a [GitHub Issue](https://github.com/IY724/Type-IV-Vessel-Builder/issues) or contact **Z25150070@s.upc.edu.cn**.
