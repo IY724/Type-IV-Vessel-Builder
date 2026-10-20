@@ -60,11 +60,18 @@ right that follows the selected head type (layout mock-up).
 | Output and self-check | Topology self-check after creation; a JSON line prefixed `TYPE4_BUILD_OK` is printed to the message area; repeated runs increment the model-name suffix instead of overwriting |
 | Units and scope | mm and deg with no hidden conversion; parametric geometry only, no materials, no meshing, no job submission |
 
-## 3 Requirements and Availability
+## 3 Requirements and Installation
 
-**Current status**: the code and installation package are temporarily withdrawn while some features are being updated. They will be fully released later. For collaboration or trial access, contact **Z25150070@s.upc.edu.cn**.
+**Fastest**: download `Type-IV-Vessel-Builder-V1.0.zip` from [Releases](https://github.com/IY724/Type-IV-Vessel-Builder/releases/latest), unzip and place the folder as in step 2 below.
+Requirements: Abaqus/CAE 2025. The plugin relies entirely on the standard Python environment embedded in Abaqus — no third-party interpreter or extra packages are required, and no Abaqus configuration files are modified.
 
-Environment: Abaqus/CAE 2025. The plugin relies on the standard Python environment embedded in Abaqus and does not modify Abaqus configuration files.
+Installation:
+
+1. Close every Abaqus/CAE window;
+2. Copy the whole `type4_vessel_builder` folder into the Abaqus plug-in directory, keeping the single-level folder structure intact (the three Python modules and the static head reference images must all sit directly in that folder);
+3. Restart Abaqus/CAE and click `Type-IV Vessel Builder` under the Plug-ins menu (available in the Part, Property, Assembly and Mesh modules).
+
+Troubleshooting: if the menu entry does not appear, the usual causes are a wrong plug-in search path, a broken folder hierarchy or a same-named backup causing module conflicts; load diagnostics are written to `type4_load.log` and `type4_gui_load.log` inside the plug-in folder.
 
 ## 4 Interface and Modelling Spaces
 

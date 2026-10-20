@@ -57,11 +57,18 @@ Type-IV Vessel Builder (Liner & Boss) V1.0 是运行在 Abaqus/CAE 2025 中的�
 | 输出与自检 | 创建后自动做几何拓扑自检；消息区打印以 `TYPE4_BUILD_OK` 开头的 JSON 回显；重复运行自动递增模型名后缀 |
 | 单位与范围 | 长度 mm、角度 deg，不做隐藏换算；只做参数化几何，不创建材料、不划网格、不提交计算 |
 
-## 3 运行环境与获取方式
+## 3 运行环境与安装
 
-**当前状态**：代码与安装包暂时撤回，部分功能正在更新，后续会完全开放。如需交流或试用，请联系 **Z25150070@s.upc.edu.cn**。
+**最省事**：到 [Releases](https://github.com/IY724/Type-IV-Vessel-Builder/releases/latest) 下载 `Type-IV-Vessel-Builder-V1.0.zip`，解压后按下面第 2 步放置即可，不必逐个文件下载。
+运行环境：Abaqus/CAE 2025；插件完全依赖 Abaqus 内置的标准 Python 运行环境，无需单独配置第三方解释器或额外扩展包，也不改动 Abaqus 原生配置文件。
 
-运行环境：Abaqus/CAE 2025；插件依赖 Abaqus 内置的标准 Python 环境，不修改 Abaqus 原生配置文件。
+安装步骤：
+
+1. 关闭全部 Abaqus/CAE 窗口；
+2. 将包含完整源程序的 `type4_vessel_builder` 文件夹整体拷贝至 Abaqus 插件目录中，保持单层文件夹组织结构完整（三份 Python 程序文件与封头静态参考图必须统一置于该文件夹第一层目录内）；
+3. 重启 Abaqus/CAE，在 Plug-ins 菜单中点击 Type-IV Vessel Builder 项即可弹出交互窗口（在 Part、Property、Assembly、Mesh 等前处理模块下均可调用）。
+
+排查提示：若菜单项未出现，常见原因为插件搜索路径偏差、目录层级错乱或同名备份引发模块冲突；加载异常日志记录于插件目录下的 `type4_load.log` 与 `type4_gui_load.log`。
 
 ## 4 界面与建模方式
 
